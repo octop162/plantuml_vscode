@@ -1,0 +1,15 @@
+@startuml
+title 本来
+[テスト対象] as Program
+[テストフレームワーク] as TestCase
+[テストフレームワークのテスト] as TestCaseTest
+
+[TestCaseTest] --> [TestCase] :呼び出し
+[TestCase] --> [TestCaseTest] :結果
+[TestCase] --> [TestCase] :assert
+
+[TestCase] --> [Program] :呼び出し
+[Program] --> [TestCase] :結果
+[TestCaseTest] --> [TestCaseTest] :assert
+
+@enduml

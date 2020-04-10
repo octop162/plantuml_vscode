@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="302px" preserveAspectRatio="none" style="width:315px;height:302px;" version="1.1" viewBox="0 0 315 302" width="315px" zoomAndPan="magnify"><defs><filter height="300%" id="foqp00nm0phwt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="36" x="145.5" y="16.708">本来</text><!--MD5=[0b742a61ac35b25d4720c8ed0d8b889b]
+entity Program--><rect fill="#FEFECE" filter="url(#foqp00nm0phwt)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="69" y="28.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="64" y="33.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="64" y="55.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="79" y="51.9482">テスト対象</text><!--MD5=[fcf116d29649bffe2d2ebebfe833d549]
+entity TestCase--><rect fill="#FEFECE" filter="url(#foqp00nm0phwt)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="160" x="34" y="141.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="29" y="146.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="29" y="168.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="44" y="164.9482">テストフレームワーク</text><!--MD5=[d8702152bdd341c9e757c0d809f8b517]
+entity TestCaseTest--><rect fill="#FEFECE" filter="url(#foqp00nm0phwt)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="216" x="6" y="254.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="259.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1" y="281.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="16" y="277.9482">テストフレームワークのテスト</text><!--MD5=[2aca30bbcaf3c86545912a3b0baffb65]
+link TestCaseTest to TestCase--><path d="M114,254.8428 C114,235.4209 114,204.5161 114,183.285 " fill="none" id="TestCaseTest-&gt;TestCase" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="114,178.1085,110,187.1085,114,183.1085,118,187.1085,114,178.1085" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="115" y="221.02">呼び出し</text><!--MD5=[3ded298f76c5d79224eb7a462dcf5ad1]
+link TestCase to TestCaseTest--><path d="M95.7638,178.3753 C88.7797,186.6918 81.6234,197.0828 78,207.9531 C72.9789,223.0163 81.1084,238.6208 90.9035,250.7639 " fill="none" id="TestCase-&gt;TestCaseTest" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="94.2725,254.7435,91.5102,245.29,91.0418,250.9274,85.4044,250.4591,94.2725,254.7435" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="79" y="221.02">結果</text><!--MD5=[a596a72734d9d70c4948b54cd32cb281]
+link TestCase to TestCase--><path d="M194.0773,149.5973 C214.0623,150.3215 229,153.7734 229,159.9531 C229,165.6017 216.5194,168.9713 199.1116,170.0618 " fill="none" id="TestCase-&gt;TestCase" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="194.0773,170.3089,203.2626,173.8628,199.0713,170.0638,202.8704,165.8725,194.0773,170.3089" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="235" y="164.52">assert</text><!--MD5=[c1a42f51e7a994ccd25ca4a63f147e2e]
+link TestCase to Program--><path d="M114,141.8428 C114,122.4209 114,91.5161 114,70.285 " fill="none" id="TestCase-&gt;Program" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="114,65.1085,110,74.1085,114,70.1085,118,74.1085,114,65.1085" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="115" y="108.02">呼び出し</text><!--MD5=[8f2dea45f6126c0f80ceddf107fab845]
+link Program to TestCase--><path d="M95.7638,65.3753 C88.7797,73.6918 81.6234,84.0828 78,94.9531 C72.9789,110.0163 81.1084,125.6208 90.9035,137.7639 " fill="none" id="Program-&gt;TestCase" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="94.2725,141.7435,91.5102,132.29,91.0418,137.9274,85.4044,137.4591,94.2725,141.7435" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="79" y="108.02">結果</text><!--MD5=[e2eeff777ed57273ef55af56c285d43d]
+link TestCaseTest to TestCaseTest--><path d="M222.1914,262.9736 C242.5984,264.1852 257,267.5117 257,272.9531 C257,277.9269 244.9673,281.1336 227.3142,282.5733 " fill="none" id="TestCaseTest-&gt;TestCaseTest" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="222.1914,282.9326,231.4492,286.2931,227.1791,282.5828,230.8895,278.3127,222.1914,282.9326" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="263" y="277.52">assert</text><!--MD5=[92e74c64217750fc18ce39be58fcf906]
+@startuml
+title 本来
+[テスト対象] as Program
+[テストフレームワーク] as TestCase
+[テストフレームワークのテスト] as TestCaseTest
+
+[TestCaseTest] - -> [TestCase] :呼び出し
+[TestCase] - -> [TestCaseTest] :結果
+[TestCase] - -> [TestCase] :assert
+
+[TestCase] - -> [Program] :呼び出し
+[Program] - -> [TestCase] :結果
+[TestCaseTest] - -> [TestCaseTest] :assert
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_242-b08
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
